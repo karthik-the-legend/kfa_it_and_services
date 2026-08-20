@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KFA IT and Services - Grow Your Business, Online</title>
+<meta name="description" content="KFA IT and Services helps cafes, restaurants, hotels, retailers, startups, and growing businesses build their online presence, automate operations, attract more customers, and manage technology — all from one trusted partner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="relative min-h-screen flex flex-col">
+<!-- Sticky Header -->
+<header class="bg-surface fixed top-0 w-full z-50 border-b-2 border-on-surface">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+<a href="index.html" class="font-headline-md text-headline-md font-bold text-on-surface">KFA IT and Services</a>
+<nav class="hidden md:flex gap-gutter items-center">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-bold text-label-bold active:scale-95 transition-transform duration-150" href="index.html">Home</a>
+<a class="text-on-surface font-label-bold text-label-bold hover:text-primary transition-colors active:scale-95" href="services.html">Services</a>
+<a class="text-on-surface font-label-bold text-label-bold hover:text-primary transition-colors active:scale-95" href="industries.html">Industries</a>
+<a class="text-on-surface font-label-bold text-label-bold hover:text-primary transition-colors active:scale-95" href="portfolio.html">Portfolio</a>
+<a class="text-on-surface font-label-bold text-label-bold hover:text-primary transition-colors active:scale-95" href="pricing.html">Pricing</a>
+<a class="text-on-surface font-label-bold text-label-bold hover:text-primary transition-colors active:scale-95" href="about.html">About</a>
+</nav>
+<div class="hidden md:flex items-center gap-4">
+<a class="btn-secondary" href="pricing.html#packages">Get Quote</a>
+<a class="btn-primary gap-2" href="tel:+15551234567">
+<span class="material-symbols-outlined text-sm">phone</span>
+Call Now
+</a>
+</div>
+<button id="mobile-menu-btn" aria-label="Toggle Menu" aria-expanded="false" class="md:hidden flex items-center justify-center p-2 text-on-surface">
+<span id="mobile-menu-icon" class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+<div id="mobile-nav-panel" class="hidden md:hidden bg-surface border-t-2 border-on-surface">
+<nav class="flex flex-col px-margin-mobile py-2">
+<a class="py-3 font-label-bold text-label-bold text-primary border-b border-surface-dim" href="index.html">Home</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="services.html">Services</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="industries.html">Industries</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="portfolio.html">Portfolio</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="pricing.html">Pricing</a>
+<a class="py-3 font-label-bold text-label-bold" href="about.html">About</a>
+</nav>
+<div class="flex flex-col gap-3 px-margin-mobile pb-6 pt-4">
+<a class="btn-primary w-full" href="tel:+15551234567">Call Now</a>
+<a class="btn-secondary w-full" href="pricing.html#packages">Get Quote</a>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-grow pt-20">
+<!-- Hero -->
+<section class="relative min-h-[600px] flex items-center pt-12 pb-12 md:pt-24 md:pb-24 overflow-hidden bg-surface-container-lowest">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full flex flex-col md:flex-row items-center gap-8 md:gap-16">
+<div class="w-full md:w-1/2 flex flex-col items-start text-left z-10">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-3xl">Everything Your Business Needs to Go Digital.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl">KFA IT and Services helps cafes, restaurants, hotels, retailers, startups, and growing businesses build their online presence, automate operations, attract more customers, and manage technology—all from one trusted partner.</p>
+<div class="flex flex-col sm:flex-row gap-4 mb-6 w-full sm:w-auto">
+<a class="btn-primary w-full sm:w-auto text-lg py-4 px-8" href="pricing.html">Get Free Consultation</a>
+<a class="btn-secondary w-full sm:w-auto text-lg py-4 px-8" href="#services">Explore Our Services</a>
+</div>
+<div class="text-on-surface-variant font-label-md text-label-md">
+Websites • Online Ordering • Booking Systems • Marketing • Branding • IT Support
+</div>
+</div>
+<div class="w-full md:w-1/2 h-[400px] md:h-[600px] relative z-10"><img alt="A modern, high-tech visual representation of a business's digital ecosystem for an IT agency website." class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBvfJismJLP26FZQBzS3IvvDBwoOX7QdCok0iLl7XIVUHuqAZSZ-v_6ypyAoBeJNlUX2Yhv2QcHnJxyk31_PyRR2OoDOhDWHNg_y9RnsAULG3MeSnnRKWx8lSleTpCWtDrIIQoinaP2shNHFo_lmNh3QlSKoAIuHvjmKM3_yxSboGChgZ-Rj7jbqhcP8XJ9DD-WpmQ8t0GfD8JMWzWGsYToG68VK7kAqhvYuABre9_z1dfZsdTcXxwfA"></div>
+</div>
+</section>
+<!-- Problem / Solution -->
+<section class="bg-surface-container-low py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Running a Business Is Hard Enough. Managing Technology Shouldn't Be.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">Many businesses work with different people for their website, social media, branding, software, and IT problems. This often creates confusion, delays, and unnecessary costs.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-12">
+<div class="heavy-border-card">
+<h3 class="font-headline-md text-headline-md text-primary mb-6">The Problem</h3>
+<ul class="flex flex-col gap-4">
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> An outdated or missing website</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Customers unable to order online</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Bookings managed manually</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Poor Google visibility</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Inconsistent branding</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Technology problems affecting daily operations</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface-variant"><span class="text-primary font-bold">✕</span> Multiple vendors for different services</li>
+</ul>
+</div>
+<div class="heavy-border-card border-primary bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-primary mb-6">The KFA Solution</h3>
+<ul class="flex flex-col gap-4">
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> One technology partner</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> One coordinated strategy</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> Integrated digital solutions</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> Professional design and development</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> Ongoing technical support</li>
+<li class="flex items-start gap-3 font-body-md text-body-md text-on-surface"><span class="text-green-600 font-bold">✓</span> Solutions built around your business</li>
+</ul>
+</div>
+</div>
+<div class="text-center">
+<a class="btn-primary text-lg py-4 px-8" href="#services">See Everything We Can Do <span class="material-symbols-outlined ml-2">arrow_forward</span></a>
+</div>
+</div>
+</section>
+<!-- One Agency -->
+<section class="bg-surface-container-lowest py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop"><div class="max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-16">
+<div class="w-full md:w-1/2 text-left"><h2 class="font-headline-lg text-headline-lg text-on-surface mb-8 md:mb-12">One Agency. Every Digital Need.</h2><div class="flex flex-col gap-8"><p class="font-body-lg text-body-lg text-on-surface-variant">Your business should not have to coordinate with one company for a website, another for marketing, another for branding, and someone else whenever technology stops working. KFA IT and Services brings these essential digital and IT services together under one roof. We help businesses build their online presence, improve customer experience, streamline operations, and receive ongoing support as they grow.</p><div class="grid grid-cols-1 gap-6 mt-4"><div class="flex items-start gap-4"><span class="text-primary font-display-lg-mobile text-2xl font-bold">01</span><div><h4 class="font-label-bold text-label-bold uppercase mb-1">Build</h4><p class="font-body-md text-body-md text-on-surface-variant">Websites, software, ordering systems, booking systems, and digital platforms.</p></div></div><div class="flex items-start gap-4"><span class="text-primary font-display-lg-mobile text-2xl font-bold">02</span><div><h4 class="font-label-bold text-label-bold uppercase mb-1">Grow</h4><p class="font-body-md text-body-md text-on-surface-variant">Digital marketing, local SEO, Google visibility, and customer engagement.</p></div></div><div class="flex items-start gap-4"><span class="text-primary font-display-lg-mobile text-2xl font-bold">03</span><div><h4 class="font-label-bold text-label-bold uppercase mb-1">Support</h4><p class="font-body-md text-body-md text-on-surface-variant">Technology setup, infrastructure, troubleshooting, and ongoing maintenance.</p></div></div></div></div></div>
+<div class="w-full md:w-1/2">
+<img alt="KFA IT and Services digital agency concept" class="w-full h-auto object-contain heavy-border-card p-0 overflow-hidden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbPxqjwLTvSOnWH1l5WUeeWW1GW4kw1ldPSdQYkOue-hVAThEnc9ZHElQ1__0mpd8u5edFaNyhNu2JGOmEriFvjwp7nQ8XQDRIK1NsAiQfq6jlxDDHtX3QZwP9rVFmJJT6FHrVR4R_KqrTETRfuvaMMcwEWG9wXhNvz_dv56tO2rd-E4_IsVogs1mtQaFnU02OouTCMtz0FXfuoB31wDbBFKcJqzHAWGpRxrPTcvGpCWgm2Pr0hzRnYw">
+</div>
+</div></section>
+<!-- Services -->
+<section class="bg-surface py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop" id="services">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">What Can We Help You With?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">Choose the service you need today—or combine them into a complete digital solution for your business.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
+<div class="heavy-border-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">language</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Website Design &amp; Development</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Professional, fast, and mobile-friendly websites designed to build trust and turn visitors into customers.</p>
+<ul class="flex flex-col gap-2 mb-8">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Responsive design</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Fast loading</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> SEO-ready structure</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> SSL security</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Ongoing updates</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity mt-auto" href="services.html#digital-presence">Explore Website Services <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">shopping_cart</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Online Ordering &amp; Booking</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Make it easy for customers to order, reserve, and book your services online.</p>
+<ul class="flex flex-col gap-2 mb-8">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> QR code menus</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Online ordering</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Booking systems</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Payment integration</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Real-time notifications</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity mt-auto" href="services.html#ordering-bookings">Explore Ordering &amp; Booking <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">campaign</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Digital Marketing &amp; Local SEO</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Help the right customers discover your business when they search online.</p>
+<ul class="flex flex-col gap-2 mb-8">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Google Business Profile</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Local SEO</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Social media management</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Google Ads</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> WhatsApp Business</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity mt-auto" href="services.html#digital-growth">Grow Your Business Online <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">palette</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Branding &amp; Design</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Create a professional identity that makes your business look consistent, memorable, and trustworthy.</p>
+<ul class="flex flex-col gap-2 mb-8">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Logo design</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Business cards</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Menu design</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Brochures</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Product photography</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity mt-auto" href="services.html#branding-design">Build Your Brand <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">terminal</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">POS &amp; Business Software</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Simplify your daily operations with the right software and technology systems.</p>
+<ul class="flex flex-col gap-2 mb-8">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Billing systems</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> POS setup</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Inventory management</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> CRM</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Staff training</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity mt-auto" href="services.html#software-automation">Explore Business Software <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="text-center">
+<a class="btn-primary text-lg py-4 px-8 gap-2" href="services.html">
+<span class="material-symbols-outlined fill">apps</span>
+View All Services
+</a>
+</div>
+</div>
+</section>
+<!-- Industries -->
+<section class="bg-surface-container-low py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop" id="industries">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Built for Businesses Like Yours.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">Instead of saying you serve everyone, show the industries where your solutions are particularly relevant.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Cafes &amp; Restaurants</h3>
+<ul class="flex flex-col gap-2 mb-8 flex-grow">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Restaurant website</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Digital menu</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> QR code ordering</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Online ordering</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Google Business Profile</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Social media</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Branding</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="industries.html">Explore Restaurant Solutions <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Hotels &amp; Hospitality</h3>
+<ul class="flex flex-col gap-2 mb-8 flex-grow">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Hotel website</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Room booking</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Availability management</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Google optimization</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Digital marketing</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> OTA integration</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="industries.html">Explore Hospitality Solutions <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Retail &amp; Furniture</h3>
+<ul class="flex flex-col gap-2 mb-8 flex-grow">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Product catalog</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> E-commerce website</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Inventory systems</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> CRM</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Digital marketing</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="industries.html">Explore Retail Solutions <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Startups</h3>
+<ul class="flex flex-col gap-2 mb-8 flex-grow">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> MVP development</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Website</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Branding</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Custom software</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> AI integration</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Technical consultation</li>
+</ul>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="industries.html">Explore Startup Solutions <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Fitness &amp; Training</h3>
+<ul class="flex flex-col gap-2 mb-8 flex-grow">
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Membership website</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Online booking</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Payment integration</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> CRM</li>
+<li class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Digital marketing</li>
+</ul>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Professional Businesses</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Tailored digital solutions for Consultants, Agencies, Service providers, Educational institutions, Clinics, and Small companies looking to scale.</p>
+</div>
+</div>
+<div class="text-center">
+<a class="btn-primary text-lg py-4 px-8" href="industries.html">View All Industries</a>
+</div>
+</div>
+</section>
+<!-- Approach -->
+<section class="bg-surface-container-lowest py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">A Simple Approach to Better Technology.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">We focus on understanding your business first, then recommend and build the right digital solution—without unnecessary complexity.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+<div class="flex flex-col gap-4">
+<div class="text-primary font-headline-md text-headline-md">01 — Understand</div>
+<p class="font-body-md text-body-md text-on-surface-variant">We learn about your business, customers, challenges, and goals.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="text-primary font-headline-md text-headline-md">02 — Plan</div>
+<p class="font-body-md text-body-md text-on-surface-variant">We recommend the right combination of website, software, marketing, branding, or IT solutions.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="text-primary font-headline-md text-headline-md">03 — Build</div>
+<p class="font-body-md text-body-md text-on-surface-variant">We design, develop, test, and prepare everything for launch.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="text-primary font-headline-md text-headline-md">04 — Support</div>
+<p class="font-body-md text-body-md text-on-surface-variant">We continue to help you maintain, improve, and grow your digital systems.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+<div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">handshake</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">One Technology Partner</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Multiple digital and IT services from one team.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">architecture</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Built Around Your Business</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Solutions based on your actual requirements.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">chat</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Clear Communication</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">No unnecessary technical jargon.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">support_agent</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Ongoing Support</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Help even after your project goes live.</p>
+</div>
+</div>
+</div>
+<div class="text-center">
+<a class="btn-primary text-lg py-4 px-8" href="pricing.html">Let's Discuss Your Business</a>
+</div>
+</div>
+</section>
+<!-- Work + Packages -->
+<section class="bg-surface-container-low py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Solutions Built for Real Businesses.</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-12">
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Restaurant &amp; Café</h3>
+<p class="font-label-bold text-label-bold text-primary mb-4">Website + Digital Menu + Online Ordering</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Help customers discover your business, view your menu, and place orders easily.</p>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="portfolio.html">View Solution <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Hotel &amp; Hospitality</h3>
+<p class="font-label-bold text-label-bold text-primary mb-4">Website + Booking System + Online Enquiries</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Give customers an easy way to explore, enquire, and book.</p>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="portfolio.html">View Solution <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="heavy-border-card flex flex-col h-full bg-surface-container-lowest">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Retail &amp; Startups</h3>
+<p class="font-label-bold text-label-bold text-primary mb-4">Website + Branding + Business Tools</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Build a professional digital presence and the systems needed to grow.</p>
+<a class="text-primary font-label-bold text-label-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="portfolio.html">View Solution <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="text-center bg-surface-container-highest p-8 rounded-lg mb-8">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Need More Than One Service?</h4>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Combine the services your business needs into one complete digital package.</p>
+</div>
+<div class="text-center">
+<a class="btn-primary text-lg py-4 px-8" href="pricing.html">View Pricing Packages</a>
+</div>
+</div>
+</section>
+<!-- FAQ + Final CTA -->
+<section class="bg-surface-container-lowest py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Let's Find the Right Solution for Your Business.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">Whether you need a simple website, an online ordering system, better Google visibility, business software, or complete IT support, we'll help you understand the right next step.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+<div class="heavy-border-card">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">What services do you provide?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">From websites and branding to ordering systems, marketing, business software, and IT support.</p>
+</div>
+<div class="heavy-border-card">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">How much will my project cost?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Pricing depends on your requirements. We provide a quote based on what your business actually needs.</p>
+</div>
+<div class="heavy-border-card">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Do you provide support after launch?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Yes. Ongoing maintenance and IT support can be included depending on your requirements.</p>
+</div>
+<div class="heavy-border-card">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Can I combine multiple services?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Yes. We can create a complete package based on your business needs.</p>
+</div>
+</div>
+<div class="bg-[#1c1b1b] rounded-lg p-12 text-center text-white">
+<h3 class="font-headline-lg text-headline-lg mb-6">Ready to Take Your Business Digital?</h3>
+<p class="font-body-lg text-body-lg mb-8 max-w-2xl mx-auto text-gray-300">Tell us about your business, and we'll recommend the right solution—free of charge.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
+<a class="btn-primary w-full sm:w-auto text-lg py-4 px-8" href="pricing.html">Get Free Quote</a>
+<a class="btn-secondary-white w-full sm:w-auto text-lg py-4 px-8" href="tel:+15551234567">Call Now</a>
+</div>
+<p class="font-body-md text-body-md text-gray-400">Or chat with us directly on WhatsApp.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Mobile Bottom Bar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex md:hidden bg-surface border-t-2 border-on-surface pb-safe">
+<a class="flex-1 flex flex-col items-center justify-center bg-primary-container text-on-primary py-4 hover:opacity-90 active:opacity-80 transition-opacity" href="tel:+15551234567">
+<span class="material-symbols-outlined mb-1">call</span>
+<span class="font-label-bold text-label-bold">Call Now</span>
+</a>
+<a class="flex-1 flex flex-col items-center justify-center bg-on-surface text-surface-container-lowest py-4 hover:opacity-90 active:opacity-80 transition-opacity" href="https://wa.me/15551234567" target="_blank" rel="noopener">
+<span class="material-symbols-outlined mb-1">chat</span>
+<span class="font-label-bold text-label-bold">Message</span>
+</a>
+</nav>
+<!-- Footer -->
+<footer class="bg-on-surface text-surface-container-lowest py-12 md:py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-12">
+<div class="flex flex-col gap-6">
+<div class="font-headline-md text-headline-md font-bold">KFA IT and Services</div>
+<p class="font-body-md text-body-md text-surface-variant">Empowering local businesses with high-performance digital tools.</p>
+<div class="flex gap-4">
+<a class="hover:text-primary transition-colors" href="#" aria-label="Website"><span class="material-symbols-outlined">public</span></a>
+<a class="hover:text-primary transition-colors" href="#" aria-label="Community"><span class="material-symbols-outlined">group</span></a>
+<a class="hover:text-primary transition-colors" href="#" aria-label="Reviews"><span class="material-symbols-outlined">thumb_up</span></a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-bold text-label-bold uppercase tracking-wider">Quick Links</h4>
+<nav class="flex flex-col gap-2">
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Services</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="industries.html">Industries</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="portfolio.html">Portfolio</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="pricing.html">Pricing</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="about.html">About</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-bold text-label-bold uppercase tracking-wider">Services</h4>
+<nav class="flex flex-col gap-2">
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Web Development</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Online Ordering</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Booking Systems</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Digital Marketing</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Branding &amp; Design</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary transition-colors" href="services.html">Business Software</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-bold text-label-bold uppercase tracking-wider">Contact</h4>
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-2 text-surface-variant hover:text-primary transition-colors" href="tel:+15551234567">
+<span class="material-symbols-outlined text-sm">call</span>
+<span class="font-body-md text-body-md">+1 (555) 123-4567</span>
+</a>
+<a class="flex items-center gap-2 text-surface-variant hover:text-primary transition-colors" href="mailto:hello@kfait.com">
+<span class="material-symbols-outlined text-sm">mail</span>
+<span class="font-body-md text-body-md">hello@kfait.com</span>
+</a>
+<div class="flex items-center gap-2 text-surface-variant">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="font-body-md text-body-md">123 Digital Ave, Tech District</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-surface-variant/30 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-label-md text-label-md text-surface-variant">© 2026 KFA IT and Services. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="font-label-md text-label-md text-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-md text-label-md text-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<div class="h-20 md:hidden"></div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

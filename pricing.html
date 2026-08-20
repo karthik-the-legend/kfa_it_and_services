@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing - KFA IT and Services</title>
+<meta name="description" content="Clear starting prices, solutions built around you. Compare Starter, Business, and Custom packages from KFA IT and Services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="assets/css/site.css">
+<style>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+</style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col pt-20">
+<header class="bg-surface fixed top-0 w-full z-50 border-b-2 border-on-surface">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+<a href="index.html" class="font-headline-md text-headline-md font-bold text-on-surface">KFA IT and Services</a>
+<nav class="hidden md:flex gap-gutter items-center h-full">
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors h-full flex items-center" href="index.html">Home</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors h-full flex items-center" href="services.html">Services</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors h-full flex items-center" href="industries.html">Industries</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors h-full flex items-center" href="portfolio.html">Portfolio</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 h-full flex items-center" href="pricing.html">Pricing</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors h-full flex items-center" href="about.html">About</a>
+</nav>
+<div class="hidden md:flex gap-unit items-center">
+<a class="bg-primary-container text-on-primary px-6 py-3 rounded-full font-label-bold hover:bg-primary transition-colors" href="tel:+15551234567">Call Now</a>
+<a class="bg-transparent text-on-surface heavy-border px-6 py-3 rounded-full font-label-bold hover:bg-surface-variant transition-colors" href="#packages">Get Quote</a>
+</div>
+<button aria-label="Toggle Menu" aria-expanded="false" class="md:hidden flex items-center justify-center p-2 text-on-surface" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-2xl" id="mobile-menu-icon" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+</div>
+<div id="mobile-nav-panel" class="hidden md:hidden bg-surface border-t-2 border-on-surface">
+<nav class="flex flex-col px-margin-mobile py-2">
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="index.html">Home</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="services.html">Services</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="industries.html">Industries</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="portfolio.html">Portfolio</a>
+<a class="py-3 font-label-bold text-label-bold text-primary border-b border-surface-dim" href="pricing.html">Pricing</a>
+<a class="py-3 font-label-bold text-label-bold" href="about.html">About</a>
+</nav>
+<div class="flex flex-col gap-3 px-margin-mobile pb-6 pt-4">
+<a class="btn-primary w-full" href="tel:+15551234567">Call Now</a>
+<a class="btn-secondary w-full" href="#packages">Get Quote</a>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Pricing Hero -->
+<section class="w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-section-gap bg-surface-container-lowest">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<div class="space-y-6">
+<div class="font-label-bold text-label-bold text-primary-container uppercase tracking-widest">— SIMPLE, CLEAR PRICING</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">Clear Starting Prices. Solutions Built <span class="text-primary-container">Around You.</span></h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Every business has different goals, requirements, and budgets. Start with a clearly defined package or tell us what you're trying to achieve, and we'll recommend the right solution for your business.</p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="bg-primary-container text-on-primary px-8 py-4 rounded-full font-label-bold text-center hover:bg-primary transition-colors inline-block" href="#packages">View Packages ↓</a>
+<a class="bg-transparent text-on-surface heavy-border px-8 py-4 rounded-full font-label-bold text-center hover:bg-surface-variant transition-colors inline-block" href="tel:+15551234567">Get a Custom Quote →</a>
+</div>
+<ul class="space-y-4 pt-8">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary-container">check_circle</span><span class="font-body-md text-on-surface font-medium">Clear project scope</span></li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary-container">check_circle</span><span class="font-body-md text-on-surface font-medium">No unnecessary features</span></li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary-container">check_circle</span><span class="font-body-md text-on-surface font-medium">Solutions based on your needs</span></li>
+</ul>
+</div>
+<div class="relative h-[600px] w-full hidden lg:block">
+<div class="absolute right-0 top-1/2 -translate-y-1/2 w-full max-w-md space-y-6">
+<div class="pure-flat-card p-6 rounded-lg transform -rotate-2 hover:rotate-0 transition-transform duration-300 ml-12">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-label-bold text-label-bold tracking-widest text-on-surface">STARTER</h3>
+<span class="material-symbols-outlined text-on-surface-variant">rocket_launch</span>
+</div>
+<div class="h-2 w-1/3 bg-surface-variant rounded-full mb-2"></div>
+<div class="h-2 w-1/2 bg-surface-variant rounded-full"></div>
+</div>
+<div class="pure-flat-card heavy-border p-6 rounded-lg transform scale-105 z-10 relative bg-surface-bright shadow-[8px_8px_0px_#141414] hover:shadow-[4px_4px_0px_#141414] hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-300">
+<div class="absolute -top-3 -right-3 bg-primary-container text-on-primary font-label-bold text-xs px-3 py-1 rounded-full border border-on-surface">MOST POPULAR</div>
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-headline-md text-on-surface">BUSINESS</h3>
+<span class="material-symbols-outlined text-primary-container">business_center</span>
+</div>
+<div class="h-3 w-1/2 bg-on-surface rounded-full mb-3"></div>
+<div class="h-2 w-3/4 bg-surface-variant rounded-full mb-2"></div>
+<div class="h-2 w-2/3 bg-surface-variant rounded-full"></div>
+</div>
+<div class="bg-on-surface text-surface p-6 rounded-lg transform rotate-2 hover:rotate-0 transition-transform duration-300 ml-8 border border-on-surface">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-label-bold text-label-bold tracking-widest text-surface">CUSTOM</h3>
+<span class="material-symbols-outlined text-surface">code_blocks</span>
+</div>
+<div class="h-2 w-1/3 bg-surface-variant opacity-50 rounded-full mb-2"></div>
+<div class="h-2 w-1/2 bg-surface-variant opacity-50 rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How to Work With Us -->
+<section class="w-full bg-[#F7F7F7] py-section-gap">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+<div class="font-label-bold text-label-bold text-primary-container uppercase tracking-widest">HOW CAN WE HELP?</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Choose the Way You Want to Work With Us.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Whether you need a clearly defined package, a completely custom solution, or ongoing technical support, choose the approach that fits your business.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<a href="#packages" class="pure-flat-card heavy-border p-8 rounded-2xl group hover:bg-on-surface hover:text-surface transition-colors duration-300 cursor-pointer flex flex-col h-full">
+<div class="flex justify-between items-center mb-6">
+<span class="font-headline-md text-headline-md opacity-20 group-hover:text-surface">01</span>
+<span class="material-symbols-outlined text-3xl group-hover:text-primary-container transition-colors">package_2</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4 group-hover:text-surface">Starter Package</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-surface-variant mb-8 flex-grow">Clear scope, fixed price, perfect for getting started quickly with a strong foundation.</p>
+<div class="flex items-center gap-2 font-label-bold group-hover:text-primary-container transition-colors">Explore Packages <span class="material-symbols-outlined text-sm">arrow_forward</span></div>
+</a>
+<a href="tel:+15551234567" class="pure-flat-card heavy-border p-8 rounded-2xl group hover:bg-on-surface hover:text-surface transition-colors duration-300 cursor-pointer flex flex-col h-full">
+<div class="flex justify-between items-center mb-6">
+<span class="font-headline-md text-headline-md opacity-20 group-hover:text-surface">02</span>
+<span class="material-symbols-outlined text-3xl group-hover:text-primary-container transition-colors">draw</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4 group-hover:text-surface">Custom Solution</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-surface-variant mb-8 flex-grow">Tailored development to solve unique business challenges or scale existing operations.</p>
+<div class="flex items-center gap-2 font-label-bold group-hover:text-primary-container transition-colors">Get a Quote <span class="material-symbols-outlined text-sm">arrow_forward</span></div>
+</a>
+<a href="tel:+15551234567" class="pure-flat-card heavy-border p-8 rounded-2xl group hover:bg-on-surface hover:text-surface transition-colors duration-300 cursor-pointer flex flex-col h-full">
+<div class="flex justify-between items-center mb-6">
+<span class="font-headline-md text-headline-md opacity-20 group-hover:text-surface">03</span>
+<span class="material-symbols-outlined text-3xl group-hover:text-primary-container transition-colors">support_agent</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4 group-hover:text-surface">Ongoing Support</h3>
+<p class="font-body-md text-on-surface-variant group-hover:text-surface-variant mb-8 flex-grow">Maintenance, updates, and technical support to keep your systems running smoothly.</p>
+<div class="flex items-center gap-2 font-label-bold group-hover:text-primary-container transition-colors">View Plans <span class="material-symbols-outlined text-sm">arrow_forward</span></div>
+</a>
+</div>
+</div>
+</section>
+<!-- Packages -->
+<section class="w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-section-gap" id="packages">
+<div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+<div class="font-label-bold text-label-bold text-primary-container uppercase tracking-widest">WEBSITE PACKAGES</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Get Your Business Online. The Right Way.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Choose a starting point based on your current business needs.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="pure-flat-card heavy-border p-8 rounded-2xl flex flex-col">
+<h3 class="font-headline-md text-headline-md mb-2">STARTER</h3>
+<div class="font-body-md text-on-surface-variant mb-6 pb-6 border-b border-on-surface/10">Starting from ₹XX,XXX</div>
+<ul class="space-y-4 mb-8 flex-grow">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Core business pages</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Mobile-responsive design</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Basic SEO setup</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Up to 5 pages</span></li>
+</ul>
+<a class="w-full text-center bg-transparent text-on-surface heavy-border px-6 py-4 rounded-full font-label-bold hover:bg-surface-variant transition-colors mt-auto" href="tel:+15551234567">Select Starter</a>
+</div>
+<div class="pure-flat-card heavy-border p-8 rounded-2xl flex flex-col relative transform lg:-translate-y-4 shadow-[8px_8px_0px_#141414]">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-container text-on-primary font-label-bold text-xs px-4 py-2 rounded-full border border-on-surface whitespace-nowrap">MOST POPULAR</div>
+<h3 class="font-headline-md text-headline-md mb-2 mt-2">BUSINESS</h3>
+<div class="font-body-md text-on-surface-variant mb-6 pb-6 border-b border-on-surface/10">Starting from ₹XX,XXX</div>
+<ul class="space-y-4 mb-8 flex-grow">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Enhanced UI/UX design</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Conversion-focused layout</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Google Analytics/Search Console</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Up to 15 pages</span></li>
+</ul>
+<a class="w-full text-center bg-primary-container text-on-primary px-6 py-4 rounded-full font-label-bold hover:bg-primary transition-colors mt-auto border border-on-surface" href="tel:+15551234567">Select Business</a>
+</div>
+<div class="bg-on-surface text-surface heavy-border p-8 rounded-2xl flex flex-col">
+<h3 class="font-headline-md text-headline-md mb-2">CUSTOM</h3>
+<div class="font-body-md text-surface-variant mb-6 pb-6 border-b border-surface/20">Custom Quote</div>
+<ul class="space-y-4 mb-8 flex-grow text-surface-variant">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Full custom platforms</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Booking/ordering systems</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Third-party integrations</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary-container text-xl shrink-0">check</span><span>Workflow automation</span></li>
+</ul>
+<a class="w-full text-center bg-surface text-on-surface px-6 py-4 rounded-full font-label-bold hover:bg-surface-variant transition-colors mt-auto" href="tel:+15551234567">Get Custom Quote</a>
+</div>
+</div>
+</section>
+<!-- Comparison Table -->
+<section class="w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pb-section-gap">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[800px]">
+<thead>
+<tr class="border-b-2 border-on-surface">
+<th class="py-6 px-4 font-headline-md w-1/4">Feature Compare</th>
+<th class="py-6 px-4 font-label-bold uppercase tracking-wider text-center w-1/4">Starter</th>
+<th class="py-6 px-4 font-label-bold uppercase tracking-wider text-center w-1/4">Business</th>
+<th class="py-6 px-4 font-label-bold uppercase tracking-wider text-center w-1/4">Custom</th>
+</tr>
+</thead>
+<tbody class="font-body-md">
+<tr class="border-b border-on-surface/20">
+<td class="py-4 px-4">Pages</td><td class="py-4 px-4 text-center">Up to 5</td><td class="py-4 px-4 text-center font-bold">Up to 15</td><td class="py-4 px-4 text-center">Unlimited</td>
+</tr>
+<tr class="border-b border-on-surface/20">
+<td class="py-4 px-4">Design</td><td class="py-4 px-4 text-center">Template-based</td><td class="py-4 px-4 text-center font-bold">Custom UI/UX</td><td class="py-4 px-4 text-center">Fully Bespoke</td>
+</tr>
+<tr class="border-b border-on-surface/20">
+<td class="py-4 px-4">SEO Setup</td><td class="py-4 px-4 text-center">Basic</td><td class="py-4 px-4 text-center font-bold">Advanced</td><td class="py-4 px-4 text-center">Comprehensive</td>
+</tr>
+<tr class="border-b border-on-surface/20">
+<td class="py-4 px-4">Analytics Integration</td>
+<td class="py-4 px-4 text-center text-surface-variant"><span class="material-symbols-outlined text-on-surface/30">remove</span></td>
+<td class="py-4 px-4 text-center text-primary-container"><span class="material-symbols-outlined">check</span></td>
+<td class="py-4 px-4 text-center text-primary-container"><span class="material-symbols-outlined">check</span></td>
+</tr>
+<tr class="border-b border-on-surface/20">
+<td class="py-4 px-4">Custom Functionality</td>
+<td class="py-4 px-4 text-center text-surface-variant"><span class="material-symbols-outlined text-on-surface/30">remove</span></td>
+<td class="py-4 px-4 text-center text-surface-variant"><span class="material-symbols-outlined text-on-surface/30">remove</span></td>
+<td class="py-4 px-4 text-center text-primary-container"><span class="material-symbols-outlined">check</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-16 text-center">
+<a class="inline-flex items-center gap-2 font-label-bold text-label-bold hover:opacity-80 transition-opacity bg-surface-container-high px-8 py-4 rounded-full border border-on-surface" href="tel:+15551234567">
+Not sure which package is right for you? <span class="text-primary-container ml-2 text-xl">●</span> Help Me Choose <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</section>
+</main>
+<nav class="bg-surface fixed bottom-0 w-full z-50 flex md:hidden border-t-2 border-on-surface">
+<a class="flex-1 flex flex-col items-center justify-center bg-on-surface text-surface py-3 opacity-90" href="tel:+15551234567">
+<span class="material-symbols-outlined mb-1">call</span>
+<span class="font-label-bold text-label-bold">Call Now</span>
+</a>
+<a class="flex-1 flex flex-col items-center justify-center bg-on-surface text-surface py-3 opacity-90" href="https://wa.me/15551234567" target="_blank" rel="noopener">
+<span class="material-symbols-outlined mb-1">chat</span>
+<span class="font-label-bold text-label-bold">Message</span>
+</a>
+</nav>
+<footer class="bg-surface w-full border-t-2 border-on-surface mb-16 md:mb-0">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-section-gap max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-md text-headline-md font-bold text-on-surface mb-4">KFA IT and Services</div>
+<p class="text-on-surface-variant text-body-md mb-6">© 2026 KFA IT and Services. All rights reserved.</p>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-bold text-label-bold text-on-surface uppercase tracking-wider mb-2">Quick Links</h4>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="services.html">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="industries.html">Industries</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-bold text-label-bold text-on-surface uppercase tracking-wider mb-2">Company</h4>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="portfolio.html">Portfolio</a>
+<a class="text-primary font-bold text-body-md" href="pricing.html">Pricing</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="about.html">About</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-bold text-label-bold text-on-surface uppercase tracking-wider mb-2">Connect</h4>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="tel:+15551234567">+1 (555) 123-4567</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-body-md" href="mailto:hello@kfait.com">hello@kfait.com</a>
+</div>
+</div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

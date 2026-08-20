@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - KFA IT and Services</title>
+<meta name="description" content="Ideas into digital experiences that work. See websites and business systems KFA IT and Services has built for restaurants, hotels, retail, and startups.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden pt-20">
+<header class="bg-surface fixed top-0 w-full z-50 border-b-2 border-on-surface">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+<a href="index.html" class="font-headline-md text-headline-md font-bold text-on-surface">KFA IT and Services</a>
+<nav class="hidden md:flex items-center gap-gutter">
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors" href="services.html">Services</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors" href="industries.html">Industries</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 hover:text-primary" href="portfolio.html">Portfolio</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors" href="pricing.html">Pricing</a>
+<a class="text-on-surface font-label-bold hover:text-primary transition-colors" href="about.html">About</a>
+</nav>
+<div class="hidden md:flex items-center gap-4">
+<a class="font-label-bold text-label-bold px-6 py-3 rounded-full border-2 border-on-background text-on-background hover:bg-surface-container transition-colors bg-transparent flex items-center gap-2" href="tel:+15551234567">
+<span class="material-symbols-outlined fill">phone</span>
+Call Now
+</a>
+<a class="font-label-bold text-label-bold px-6 py-3 rounded-full bg-primary-container text-on-primary hover:bg-primary transition-colors" href="pricing.html#packages">
+Get Quote
+</a>
+</div>
+<button aria-label="Toggle Menu" aria-expanded="false" class="md:hidden flex items-center justify-center p-2 text-on-surface" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-2xl" id="mobile-menu-icon">menu</span>
+</button>
+</div>
+<div id="mobile-nav-panel" class="hidden md:hidden bg-surface border-t-2 border-on-surface">
+<nav class="flex flex-col px-margin-mobile py-2">
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="index.html">Home</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="services.html">Services</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="industries.html">Industries</a>
+<a class="py-3 font-label-bold text-label-bold text-primary border-b border-surface-dim" href="portfolio.html">Portfolio</a>
+<a class="py-3 font-label-bold text-label-bold border-b border-surface-dim" href="pricing.html">Pricing</a>
+<a class="py-3 font-label-bold text-label-bold" href="about.html">About</a>
+</nav>
+<div class="flex flex-col gap-3 px-margin-mobile pb-6 pt-4">
+<a class="btn-primary w-full" href="tel:+15551234567">Call Now</a>
+<a class="btn-secondary w-full" href="pricing.html#packages">Get Quote</a>
+</div>
+</div>
+</header>
+<!-- HERO -->
+<section class="bg-[#FFFFFF] px-margin-mobile md:px-margin-desktop py-24 md:py-32 w-full overflow-hidden border-b-2 border-surface-dim fade-in-up">
+<div class="max-w-container-max mx-auto flex flex-col lg:flex-row items-center gap-12">
+<div class="w-full lg:w-1/2 flex flex-col items-start text-left z-10">
+<span class="text-[#d62828] font-label-bold text-sm tracking-widest uppercase mb-6">— OUR WORK</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-on-background mb-6 leading-tight">Ideas Into <span class="text-[#d62828]">Digital Experiences</span> That Work.</h1>
+<p class="font-body-lg text-on-surface-variant mb-10 max-w-xl">We build websites and business systems designed to solve real problems, engage users, and drive growth for businesses of all sizes.</p>
+<div class="flex flex-col sm:flex-row gap-4 mb-12">
+<a class="font-label-bold px-8 py-4 rounded-full bg-[#d62828] text-white hover:bg-primary transition-colors text-center shadow-lg flex items-center justify-center gap-2" href="#featured">Explore Our Work <span class="material-symbols-outlined text-sm">arrow_downward</span></a>
+<a class="font-label-bold px-8 py-4 rounded-full bg-transparent border-2 border-surface-dim text-on-background hover:bg-surface-container transition-colors text-center flex items-center justify-center gap-2" href="pricing.html">Start a Project <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div>
+<p class="font-label-bold text-xs text-on-surface-variant uppercase tracking-wider mb-4">WHAT WE BUILD</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">Websites</span>
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">Business Systems</span>
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">E-Commerce</span>
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">Booking &amp; Ordering</span>
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">Automation</span>
+<span class="px-4 py-2 bg-surface-container rounded-full text-on-background font-label-bold text-xs">Branding</span>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-1/2 relative flex justify-center items-center h-[500px]">
+<img alt="Project Mockups" class="w-full max-w-2xl h-auto object-contain float-animation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjVbzcx1cOEE1s-TBiDEtb7jB9QZHw2RU_9f7Nfcq7QAY5AyndaqAd5onRSBT1U2YsnsYyKkd0ZXu2fvzoX0CDZK319Ay7VESi5xwpV13PE2anMlsbXwBpsLbYeFQM8ADqTNuNgwtziuiI4X0NgkCooy64hfymFjJr18xyQHlN15H0VBF7UaoOugsSj8f0LWuH4WIFq0p7_KGESx7FlfZuUxXP3jfVICY0zSMlkZCnwnViPMj_YsR3jQ">
+</div>
+</div>
+</section>
+<!-- FEATURED WORK -->
+<section class="bg-white px-margin-mobile md:px-margin-desktop py-24 w-full" id="featured">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-6">A Closer Look at What We've Built.</h2>
+</div>
+<div class="flex flex-col md:flex-row items-center gap-12 mb-24">
+<div class="w-full md:w-1/2">
+<img alt="Kombat Fitness Academy" class="w-full h-auto rounded-3xl shadow-lg border border-surface-dim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAq5eSIfA3-JGvTwLE1dym1-qCpdvP_wnxi97f3ku-_7JR95zgjxyPu5F_gqIaBxAgBGdJTYsTq2OvBtqUUx9nyjgM7Sj85BeG90ziHk46-_igGNSU_lWHsDHri-RKIH7ibnAxazrpiff6tZjOnxBxy6ZC8mV9SZrPmL072jlpY8pW114GkD4LwabPMxYSqD6gNGlbAPZXjkry887mtIW2We_imGOK4c4P2-9yYxWD4RJtMXXELLsd7Jw">
+</div>
+<div class="w-full md:w-1/2 flex flex-col gap-6">
+<span class="text-[#d62828] font-label-bold text-xs tracking-widest uppercase">WEB DEVELOPMENT</span>
+<h3 class="font-headline-lg text-3xl font-bold text-on-background">Kombat Fitness Academy</h3>
+<p class="font-body-lg text-on-surface-variant">A high-impact digital presence designed to attract new members and showcase specialized martial arts programs. Features a modern, bold aesthetic and a clear pathway for sign-ups.</p>
+<div class="grid grid-cols-2 gap-4 mt-4">
+<div><h4 class="font-label-bold text-sm text-on-background mb-1 uppercase">Industry</h4><p class="text-sm text-on-surface-variant">Fitness &amp; Martial Arts</p></div>
+<div><h4 class="font-label-bold text-sm text-on-background mb-1 uppercase">Services</h4><p class="text-sm text-on-surface-variant">UI/UX, Responsive Website</p></div>
+</div>
+<a class="inline-flex items-center gap-2 font-label-bold text-[#d62828] hover:gap-4 transition-all mt-4 w-fit" href="pricing.html">View Project Details <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+</div>
+<div class="flex flex-col md:flex-row-reverse items-center gap-12">
+<div class="w-full md:w-1/2">
+<img alt="Plant Management System" class="w-full h-auto rounded-3xl shadow-lg border border-surface-dim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXW65R6ONVcHhSfKaUWYQM2T48ZZ3_cxVxxMgmxAXM-PBw5C3gS3dqGooDW6jBCVMgrwmhuPSq9Lyj5Qjz6AdmkKC7HpH1LhdtuLYgzD4f8p6cDK9N-txLpSsBCTjFjDVFRSEIKCnTHzzpahdydIw1r-RbrxTYd_2EvX1qFR2i7yr8LAZXZV1pS4Zk_v1TX6zxL93sfdQIC7OM0Kc6ctP0CjXclOG0YRLLAc-cYhdrZdhd0KtMmpNHpA">
+</div>
+<div class="w-full md:w-1/2 flex flex-col gap-6">
+<span class="text-[#d62828] font-label-bold text-xs tracking-widest uppercase">BUSINESS SYSTEM</span>
+<h3 class="font-headline-lg text-3xl font-bold text-on-background">Plant Management System</h3>
+<p class="font-body-lg text-on-surface-variant">A comprehensive internal dashboard built to track inventory, monitor growth metrics, and manage daily operational tasks for a large-scale agricultural business.</p>
+<div class="grid grid-cols-2 gap-4 mt-4">
+<div><h4 class="font-label-bold text-sm text-on-background mb-1 uppercase">Features</h4><p class="text-sm text-on-surface-variant">Data Viz, Task Management</p></div>
+<div><h4 class="font-label-bold text-sm text-on-background mb-1 uppercase">Technologies</h4><p class="text-sm text-on-surface-variant">Web Application, Database</p></div>
+</div>
+<a class="inline-flex items-center gap-2 font-label-bold text-[#d62828] hover:gap-4 transition-all mt-4 w-fit" href="pricing.html">View Project Details <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- EXPLORE BY PROJECT TYPE -->
+<section class="bg-[#F7F7F7] px-margin-mobile md:px-margin-desktop py-24 w-full">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-6">Find Work Relevant to What You Want to Build.</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">01</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">Websites</h3>
+</a>
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">02</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">Business Systems</h3>
+</a>
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">03</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">E-Commerce</h3>
+</a>
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">04</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">Booking &amp; Ordering</h3>
+</a>
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">05</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">Automation</h3>
+</a>
+<a class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300 flex flex-col h-64 justify-between" href="pricing.html">
+<div class="flex justify-between items-start"><span class="font-display-lg text-4xl font-bold text-surface-dim group-hover:text-[#d62828] transition-colors">06</span><span class="material-symbols-outlined text-surface-dim group-hover:text-[#d62828] transition-colors text-3xl -rotate-45 group-hover:rotate-0">arrow_forward</span></div>
+<h3 class="font-headline-md text-2xl font-bold text-on-background group-hover:text-white transition-colors">Branding</h3>
+</a>
+</div>
+</div>
+</section>
+<!-- ALL PROJECTS -->
+<section class="bg-white px-margin-mobile md:px-margin-desktop py-24 w-full border-t border-surface-dim">
+<div class="max-w-container-max mx-auto">
+<div class="mb-16">
+<span class="text-[#d62828] font-label-bold text-xs tracking-widest uppercase mb-4 block">ALL PROJECTS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-6">Explore the Work.</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl">A collection of digital solutions built to solve complex problems and deliver measurable results.</p>
+</div>
+<div class="flex flex-wrap gap-4 mb-12">
+<button class="px-6 py-2 rounded-full bg-black text-white font-label-bold text-sm">All</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-background font-label-bold text-sm hover:bg-surface-dim transition-colors">Websites</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-background font-label-bold text-sm hover:bg-surface-dim transition-colors">Business Systems</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-background font-label-bold text-sm hover:bg-surface-dim transition-colors">E-Commerce</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group">
+<div class="overflow-hidden rounded-3xl border border-surface-dim mb-6">
+<img alt="Kombat Fitness Academy" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLsq-LtfnGmD3ffpWfq5WtE3mzmzr9-xg6lbJ3yMVXHaETVpKr-w2jGts_58c-qvBoZB94xQ52ApGmw6Z13fpHZ-GFejMCjr1gOuo2bed16myxTu5ADY4Kza8uEbZbkUn7QVHouVhLWaNFKjMwa248jXwqQkXc6fjCN5NFg1kHnkY8AQHJs79EBcbpLdeOusWK46DwuD1oGPmQBuji6pLKxKxFReQiUUo_7eje3YO5oIHpb24bTt8QEuB9cA">
+</div>
+<span class="text-[#d62828] font-label-bold text-xs uppercase tracking-widest mb-2 block">Web Development</span>
+<h3 class="font-headline-md text-xl font-bold mb-3">Kombat Fitness Academy</h3>
+<p class="text-on-surface-variant text-sm mb-4">High-impact digital presence for specialized martial arts programs.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">UI/UX</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">Development</span>
+</div>
+</div>
+<div class="group">
+<div class="overflow-hidden rounded-3xl border border-surface-dim mb-6">
+<img alt="Plant Management System" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLuUiSVOTyGv5L8YJKnjEQ8BTmH7a6pYg26SL5sokiLdpiPrMAajptqmdstVkH80GPha5boVVCBeVPFcE7aN2XIpuBNVaeq5zJLYqngofLaRfyfT0QabtZwEK3H5nJekor-xuzI8UhESs7LG-tJGzDPcVSp2Bl07IaIj91qORFJzReZGVQsAbocVjI7O3IaqhqRnGdAY0StBAgsQcLWu_6zsSsfSAyrSCo9NklIYyjl7ClrkgfSlJsuAQ44w">
+</div>
+<span class="text-[#d62828] font-label-bold text-xs uppercase tracking-widest mb-2 block">Business System</span>
+<h3 class="font-headline-md text-xl font-bold mb-3">Plant Management System</h3>
+<p class="text-on-surface-variant text-sm mb-4">Internal dashboard for tracking inventory and growth metrics.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">Data Viz</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">Internal Tool</span>
+</div>
+</div>
+<div class="group">
+<div class="overflow-hidden rounded-3xl border border-surface-dim mb-6">
+<img alt="KFA Digital Blueprint" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLtgOYjl0sZO1NM9FllTfoENFVdhSvmFBpVEM1wzNrU1K9yJRvO2BfACkzF8-Hh03WyuQ6ErdNWvDsnJxrg_-Yp5KPva4mXpGfdfGWACg46SSVbJd0RIOGmIye7eQ5RieXK3_rg26mDQqs1DgL5rq1f7PPuSgvBpxUdv6LTPR-9kCoBpwAT9_bOVlbrd56uJ3jb7zlTI7l5BbACWeNoVCwAJphHYzJoZzG8iAB2bff0VniAgbjhXZL2tX_ib">
+</div>
+<span class="text-[#d62828] font-label-bold text-xs uppercase tracking-widest mb-2 block">Digital Experience</span>
+<h3 class="font-headline-md text-xl font-bold mb-3">KFA Digital Blueprint</h3>
+<p class="text-on-surface-variant text-sm mb-4">A comprehensive showcase of modern business website architecture.</p>
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">Strategy</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 bg-surface-container rounded">Design System</span>
+</div>
+</div>
+</div>
+<div class="mt-16 text-center">
+<button class="font-label-bold px-8 py-4 rounded-full border-2 border-on-background text-on-background hover:bg-surface-container transition-colors">Load More Projects</button>
+</div>
+</div>
+</section>
+<!-- CASE STUDY -->
+<section class="bg-[#F7F7F7] px-margin-mobile md:px-margin-desktop py-24 w-full">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<span class="text-[#d62828] font-label-bold text-xs tracking-widest uppercase mb-4 block">CASE STUDY EXPERIENCE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-8">How We Solve Problems.</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center font-bold shrink-0">01</div>
+<div><h4 class="font-bold text-lg mb-2">The Challenge</h4><p class="text-on-surface-variant">Kombat Fitness Academy needed a way to convert social traffic into gym memberships while showcasing their unique training culture.</p></div>
+</div>
+<div class="flex gap-6">
+<div class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center font-bold shrink-0">02</div>
+<div><h4 class="font-bold text-lg mb-2">Our Approach</h4><p class="text-on-surface-variant">We implemented an 'Understand-Design-Build' workflow, focusing on high-energy visuals and a frictionless booking flow.</p></div>
+</div>
+<div class="flex gap-6">
+<div class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center font-bold shrink-0">03</div>
+<div><h4 class="font-bold text-lg mb-2">The Result</h4><p class="text-on-surface-variant">A 40% increase in online inquiries and a clear user journey from landing page to class registration.</p></div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="bg-white p-4 rounded-3xl shadow-2xl border border-surface-dim">
+<img alt="Case Study Mockup" class="rounded-2xl" src="https://lh3.googleusercontent.com/aida/AP1WRLsq-LtfnGmD3ffpWfq5WtE3mzmzr9-xg6lbJ3yMVXHaETVpKr-w2jGts_58c-qvBoZB94xQ52ApGmw6Z13fpHZ-GFejMCjr1gOuo2bed16myxTu5ADY4Kza8uEbZbkUn7QVHouVhLWaNFKjMwa248jXwqQkXc6fjCN5NFg1kHnkY8AQHJs79EBcbpLdeOusWK46DwuD1oGPmQBuji6pLKxKxFReQiUUo_7eje3YO5oIHpb24bTt8QEuB9cA">
+</div>
+<div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-surface-dim hidden md:block max-w-xs">
+<p class="font-bold text-sm mb-2">Key Feature: Booking Flow</p>
+<p class="text-xs text-on-surface-variant">Integrated scheduling system that syncs directly with gym management software.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CAPABILITIES -->
+<section class="bg-white px-margin-mobile md:px-margin-desktop py-24 w-full">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-6">Our Capabilities in Action.</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">A holistic ecosystem designed to take your idea from strategy to support.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">01</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Strategy</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Defining the roadmap and business goals for your digital product.</p>
+</div>
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">02</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Design</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Creating intuitive UI/UX that resonates with your target audience.</p>
+</div>
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">03</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Development</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Building robust, scalable web and mobile applications.</p>
+</div>
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">04</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Automation</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Streamlining workflows to save time and reduce operational costs.</p>
+</div>
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">05</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Branding</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Crafting a visual identity that stands out in the marketplace.</p>
+</div>
+<div class="group bg-white p-8 rounded-3xl border border-surface-dim hover:bg-black transition-colors duration-300">
+<span class="text-[#d62828] font-display-lg text-3xl font-bold mb-6 block">06</span>
+<h3 class="font-headline-md text-xl font-bold mb-4 group-hover:text-white transition-colors">Support</h3>
+<p class="text-on-surface-variant group-hover:text-white/70 transition-colors">Ongoing maintenance and optimization for long-term success.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- FINAL CTA -->
+<section class="bg-white px-margin-mobile md:px-margin-desktop py-24 w-full border-t border-surface-dim">
+<div class="max-w-container-max mx-auto text-center">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-8">Have an Idea You Want to Build?</h2>
+<div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+<a class="inline-block font-label-bold px-10 py-4 rounded-full bg-[#d62828] text-white hover:bg-primary transition-colors shadow-lg" href="pricing.html">Start a Project</a>
+<a class="inline-block font-label-bold px-10 py-4 rounded-full border-2 border-on-background text-on-background hover:bg-surface-container transition-colors" href="tel:+15551234567">Call Now</a>
+</div>
+<a class="text-sm font-label-bold text-on-surface-variant hover:text-[#25D366] transition-colors flex items-center justify-center gap-2" href="https://wa.me/15551234567" target="_blank" rel="noopener">
+<span class="material-symbols-outlined text-lg">chat</span> WhatsApp Us
+</a>
+</div>
+</section>
+<footer class="bg-black text-white w-full py-16 px-margin-mobile md:px-margin-desktop mb-16 md:mb-0">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1">
+<h2 class="font-headline-md text-xl font-bold mb-4">KFA IT and Services</h2>
+<p class="font-body-md text-sm text-white/70 mb-6">Empowering local businesses with high-performance digital tools.</p>
+<div class="flex gap-4">
+<a class="hover:text-[#d62828] transition-colors" href="#"><span class="material-symbols-outlined">language</span></a>
+<a class="hover:text-[#d62828] transition-colors" href="#"><span class="material-symbols-outlined">group</span></a>
+<a class="hover:text-[#d62828] transition-colors" href="#"><span class="material-symbols-outlined">thumb_up</span></a>
+</div>
+</div>
+<div class="col-span-1">
+<h4 class="font-label-bold text-xs uppercase tracking-wider mb-6 text-white/50">Quick Links</h4>
+<ul class="space-y-3 font-body-md text-sm">
+<li><a class="hover:text-[#d62828] transition-colors" href="index.html">Home</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Services</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="industries.html">Industries</a></li>
+<li><a class="text-[#d62828] font-bold" href="portfolio.html">Portfolio</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="pricing.html">Pricing</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="about.html">About</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-label-bold text-xs uppercase tracking-wider mb-6 text-white/50">Services</h4>
+<ul class="space-y-3 font-body-md text-sm">
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Web Development</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Online Ordering</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Booking Systems</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Digital Marketing</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Branding &amp; Design</a></li>
+<li><a class="hover:text-[#d62828] transition-colors" href="services.html">Business Software</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-label-bold text-xs uppercase tracking-wider mb-6 text-white/50">Contact</h4>
+<ul class="space-y-4 font-body-md text-sm">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm">call</span> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm">mail</span> <a href="mailto:hello@kfait.com">hello@kfait.com</a></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-sm">location_on</span> 123 Digital Ave, Tech District</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/50">
+<p>© 2026 KFA IT and Services. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<nav class="fixed bottom-0 left-0 w-full z-50 flex md:hidden border-t-2 border-on-surface bg-surface">
+<a class="flex-1 flex flex-col items-center justify-center bg-on-surface text-surface py-3 opacity-90" href="tel:+15551234567">
+<span class="material-symbols-outlined mb-1">call</span>
+<span class="font-label-bold text-label-bold">Call Now</span>
+</a>
+<a class="flex-1 flex flex-col items-center justify-center bg-[#25D366] text-on-primary py-3 opacity-90" href="https://wa.me/15551234567" target="_blank" rel="noopener">
+<span class="material-symbols-outlined mb-1">chat</span>
+<span class="font-label-bold text-label-bold">WhatsApp</span>
+</a>
+</nav>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
